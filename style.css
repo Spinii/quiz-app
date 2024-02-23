@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem 0;
+}
+
+
+#kviz{
+    padding: 2rem;
+    text-align: center;
+    width: 500px;
+    height: 250px;
+    margin: 0 auto;
+    border: 2px solid black;
+    transition: all 0.3s ease;
+}
+
+#kviz-tekst{
+    margin-bottom: 1rem;
+}
+
+button{
+    padding: .5rem 1rem;
+    border: 1px solid black;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+}
+
+#btn1{
+    margin: 0 auto;
+}
+
+button:hover{
+    color: white;
+    background: black;
+
+}
